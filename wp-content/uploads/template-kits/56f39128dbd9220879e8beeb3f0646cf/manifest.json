@@ -1,0 +1,1735 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Playkits - Template kits for game developer",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/homepage\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - My Account",
+            "screenshot": "screenshots\/playkits-v1-my-account.jpg",
+            "source": "templates\/playkits-v1-my-account.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-my-account",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/8"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #8."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Footer",
+            "screenshot": "screenshots\/playkits-v1-footer.jpg",
+            "source": "templates\/playkits-v1-footer.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Archive",
+            "screenshot": "screenshots\/playkits-v1-archive.jpg",
+            "source": "templates\/playkits-v1-archive.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Single Post",
+            "screenshot": "screenshots\/playkits-v1-single-post.jpg",
+            "source": "templates\/playkits-v1-single-post.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Error 404",
+            "screenshot": "screenshots\/playkits-v1-error-404.jpg",
+            "source": "templates\/playkits-v1-error-404.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Single Product",
+            "screenshot": "screenshots\/playkits-v1-single-product.jpg",
+            "source": "templates\/playkits-v1-single-product.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Archive Product",
+            "screenshot": "screenshots\/playkits-v1-archive-product.jpg",
+            "source": "templates\/playkits-v1-archive-product.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-archive-product",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Cart",
+            "screenshot": "screenshots\/playkits-v1-cart.jpg",
+            "source": "templates\/playkits-v1-cart.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-cart",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/6"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #6."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gamelist",
+            "screenshot": "screenshots\/gamelist.jpg",
+            "source": "templates\/gamelist.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/gamelist\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Checkout",
+            "screenshot": "screenshots\/playkits-v1-checkout.jpg",
+            "source": "templates\/playkits-v1-checkout.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-checkout",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/7"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Page #7."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Game",
+            "screenshot": "screenshots\/single-game.jpg",
+            "source": "templates\/single-game.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/template-kit\/single-game\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Playkits V1 - Header",
+            "screenshot": "screenshots\/playkits-v1-header.jpg",
+            "source": "templates\/playkits-v1-header.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/playkits\/?elementor_library=playkits-v1-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "6.3.1",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        }
+    ],
+    "images": [
+        {
+            "filename": "race-car-e1649409244119.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/race-car-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 95831,
+            "dimensions": [
+                1440,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3DTKKHP"
+        },
+        {
+            "filename": "medieval-knights-on-battle-field-e1649409268811.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/medieval-knights-on-battle-field-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-my-account.json",
+                    "name": "Playkits V1 - My Account"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 137861,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q8HHTNM"
+        },
+        {
+            "filename": "red-race-car-close-up-front-view-on-a-track-leading-the-pack-with-motion-blur-e1649409293877.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/red-race-car-close-up-front-view-on-a-track-leading-the-pack-with-motion-blur-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/playkits-v1-cart.json",
+                    "name": "Playkits V1 - Cart"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                },
+                {
+                    "source": "templates\/playkits-v1-checkout.json",
+                    "name": "Playkits V1 - Checkout"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 150934,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PSXCK9V"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "couple-using-tablet-e1649409319493.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/couple-using-tablet-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 44451,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VBQFJ66"
+        },
+        {
+            "filename": "happy-african-american-guy-playing-video-games-at-home-e1649409359462.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/happy-african-american-guy-playing-video-games-at-home-800x488.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-my-account.json",
+                    "name": "Playkits V1 - My Account"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/playkits-v1-cart.json",
+                    "name": "Playkits V1 - Cart"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                },
+                {
+                    "source": "templates\/playkits-v1-checkout.json",
+                    "name": "Playkits V1 - Checkout"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 111655,
+            "dimensions": [
+                1440,
+                879
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6BZ45E8"
+        },
+        {
+            "filename": "gambling-table-in-luxury-casino-e1649409378869.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/gambling-table-in-luxury-casino-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                }
+            ],
+            "filesize": 60197,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PRDG4P5"
+        },
+        {
+            "filename": "modern-combatant-wearing-night-vision-device-black-background-e1649409397654.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/modern-combatant-wearing-night-vision-device-black-background-800x517.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                }
+            ],
+            "filesize": 44363,
+            "dimensions": [
+                720,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-D2AQZK6"
+        },
+        {
+            "filename": "fantasy-woman-wearing-cuirass-and-fur-holding-a-sword-and-rushes-into-battle-with-a-furious-cry-e1649409421114.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/fantasy-woman-wearing-cuirass-and-fur-holding-a-sword-and-rushes-into-battle-with-a-furious-cry-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                }
+            ],
+            "filesize": 55244,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-2MSPVW5"
+        },
+        {
+            "filename": "successful-team--e1649409461532.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/successful-team--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 138468,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7SNACXF"
+        },
+        {
+            "filename": "map_bg.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/map_bg-800x449.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 34831,
+            "dimensions": [
+                1080,
+                606
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/square-dotted-world-map-and-earth-globes-Q676QDA"
+        },
+        {
+            "filename": "Steam.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/Steam.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 6691,
+            "dimensions": [
+                250,
+                253
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "gaming-dices-on-blue-background-game-concept-e1649409480274.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/gaming-dices-on-blue-background-game-concept-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 45830,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-48PCPPQ"
+        },
+        {
+            "filename": "playstation.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/playstation.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3384,
+            "dimensions": [
+                250,
+                250
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Nintendo.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/Nintendo.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 5470,
+            "dimensions": [
+                250,
+                250
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Xbox.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/Xbox.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 5726,
+            "dimensions": [
+                250,
+                250
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Google-Play_button.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/Google-Play_button.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-my-account.json",
+                    "name": "Playkits V1 - My Account"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/playkits-v1-cart.json",
+                    "name": "Playkits V1 - Cart"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                },
+                {
+                    "source": "templates\/playkits-v1-checkout.json",
+                    "name": "Playkits V1 - Checkout"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 5221,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "App-Store_button.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/App-Store_button.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-my-account.json",
+                    "name": "Playkits V1 - My Account"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/playkits-v1-cart.json",
+                    "name": "Playkits V1 - Cart"
+                },
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                },
+                {
+                    "source": "templates\/playkits-v1-checkout.json",
+                    "name": "Playkits V1 - Checkout"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 3406,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img__0002_Layer-6.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img__0002_Layer-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 58477,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "img__0001_Layer-7.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img__0001_Layer-7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 41345,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img__0007_Layer-1.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img__0007_Layer-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/playkits-v1-archive-product.json",
+                    "name": "Playkits V1 - Archive Product"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 42410,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "zoo-tv.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/zoo-tv-800x252.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 13965,
+            "dimensions": [
+                1902,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "velocity-9.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/velocity-9-800x206.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 38343,
+            "dimensions": [
+                2333,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "utosia-2.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/utosia-2-800x205.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 17452,
+            "dimensions": [
+                2340,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "lighting.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/lighting-800x258.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 15621,
+            "dimensions": [
+                1860,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "hex-lab.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/hex-lab-800x229.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 12283,
+            "dimensions": [
+                2100,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "fox-hub.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/fox-hub-800x187.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 15676,
+            "dimensions": [
+                2566,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "earth-2.0.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/earth-2.0-800x190.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 54681,
+            "dimensions": [
+                2520,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "code-lab.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/code-lab-800x211.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 18477,
+            "dimensions": [
+                2280,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "beautiful-warrior-woman-holding-a-sword-wearing-steel-cuirass-and-fur-in-night-forest-e1649409499834.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/beautiful-warrior-woman-holding-a-sword-wearing-steel-cuirass-and-fur-in-night-forest-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 117954,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6MPWAGE"
+        },
+        {
+            "filename": "logo_playkits_w.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo_playkits_w.png",
+            "templates": [
+                {
+                    "source": "templates\/playkits-v1-footer.json",
+                    "name": "Playkits V1 - Footer"
+                }
+            ],
+            "filesize": 8339,
+            "dimensions": [
+                305,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "focused-gamer-girl-with-headset-playing-online-video-game-on-pc-e1649409521749.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/focused-gamer-girl-with-headset-playing-online-video-game-on-pc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/playkits-v1-archive.json",
+                    "name": "Playkits V1 - Archive"
+                }
+            ],
+            "filesize": 61646,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-J46WW22"
+        },
+        {
+            "filename": "error.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/error-800x492.png",
+            "templates": [
+                {
+                    "source": "templates\/playkits-v1-error-404.json",
+                    "name": "Playkits V1 - Error 404"
+                }
+            ],
+            "filesize": 98583,
+            "dimensions": [
+                2091,
+                1287
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-online-page-with-404-not-found-error-T6DZZF8"
+        },
+        {
+            "filename": "Payment-Icon.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/Payment-Icon-800x133.png",
+            "templates": [
+                {
+                    "source": "templates\/playkits-v1-single-product.json",
+                    "name": "Playkits V1 - Single Product"
+                }
+            ],
+            "filesize": 29013,
+            "dimensions": [
+                1111,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "black-silhouettes-of-soldiers-2-e1649409577478.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/black-silhouettes-of-soldiers-2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                }
+            ],
+            "filesize": 43831,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PBAD7XH"
+        },
+        {
+            "filename": "closeup-of-chess-shown-in-an-unusual-way-e1649409598662.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/closeup-of-chess-shown-in-an-unusual-way-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                }
+            ],
+            "filesize": 55752,
+            "dimensions": [
+                720,
+                405
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-E9CKM6H"
+        },
+        {
+            "filename": "stacks-of-playing-chips-on-casino-table-e1649409622427.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/stacks-of-playing-chips-on-casino-table-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                }
+            ],
+            "filesize": 52467,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-K9LVRLZ"
+        },
+        {
+            "filename": "medieval-knight-in-armor-e1649409640536.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/medieval-knight-in-armor-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gamelist.json",
+                    "name": "Gamelist"
+                },
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 136672,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VSF4KX4"
+        },
+        {
+            "filename": "3d-gradient-contour-line-patterned-background-illustration-e1649409677818.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/3d-gradient-contour-line-patterned-background-illustration-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 153249,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-9BTRM5P"
+        },
+        {
+            "filename": "call-center-e1649409701385.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/call-center-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 34449,
+            "dimensions": [
+                720,
+                481
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-45V9FQH"
+        },
+        {
+            "filename": "office-buildings-modern-glass-silhouettes-on-modern-building--e1649409722221.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/office-buildings-modern-glass-silhouettes-on-modern-building--800x890.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 69848,
+            "dimensions": [
+                647,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PKCE77U"
+        },
+        {
+            "filename": "happy-to-be-in-team--e1649409747140.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/happy-to-be-in-team--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 120567,
+            "dimensions": [
+                1440,
+                961
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-K5PLCSH"
+        },
+        {
+            "filename": "img_1.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 63016,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "img_3.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 70638,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-confident-male-entrepreneur-with-postive-smi-BDAU9DK"
+        },
+        {
+            "filename": "img_4.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 71472,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img_8.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 64765,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "img_5.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 111607,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "img_7.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 45428,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        },
+        {
+            "filename": "img_6.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 85457,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "img_9.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/img_9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 95843,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-cheerful-european-female-with-satisfie-W73EUUE"
+        },
+        {
+            "filename": "bg_memphis_b.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/bg_memphis_b.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 4662,
+            "dimensions": [
+                385,
+                385
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "friends-having-fun-at-home-with-video-games--e1649409785405.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/friends-having-fun-at-home-with-video-games--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 58829,
+            "dimensions": [
+                720,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LBYYVDV"
+        },
+        {
+            "filename": "game_.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/game_-800x382.png",
+            "templates": [
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 99133,
+            "dimensions": [
+                1280,
+                611
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "fantasy-woman-warrior-wearing-cuirass-and-fur-holding-a-sword-scabbard-ready-for-a-battle-e1649409810269.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/fantasy-woman-warrior-wearing-cuirass-and-fur-holding-a-sword-scabbard-ready-for-a-battle-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-game.json",
+                    "name": "Single Game"
+                }
+            ],
+            "filesize": 117888,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7XSCCUW"
+        },
+        {
+            "filename": "logo_playkits.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/playkits\/wp-content\/uploads\/sites\/4\/2022\/04\/logo_playkits.png",
+            "templates": [
+                {
+                    "source": "templates\/playkits-v1-header.json",
+                    "name": "Playkits V1 - Header"
+                }
+            ],
+            "filesize": 9336,
+            "dimensions": [
+                305,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}
